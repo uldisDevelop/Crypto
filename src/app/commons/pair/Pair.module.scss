@@ -1,0 +1,45 @@
+.pairContainer {
+  max-width: 1120px;
+  width: 100%;
+  color: #dcdcdc; 
+  line-height: 18px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.header {
+  display: inline-block;
+  padding: 5px 10px 0px 21px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 28px;
+  margin: 25px 0px;
+  color: #dcdcdc;
+  font-weight: 700;
+}
+
+.subHeader{
+  color:#646464;
+}
+
+.row {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+
+  @media (max-width: 770px) {
+    flex-direction: column;
+  }
+}
+
+.cell {
+  flex: 1 1 0;
+  width: 550px;  
+  box-sizing: border-box;
+
+  @media (max-width: 770px) {
+    width: 100%;
+  }
+}
+
+

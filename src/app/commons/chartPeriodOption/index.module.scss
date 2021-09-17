@@ -1,0 +1,18 @@
+.periodOption {
+    display: inline-block;
+    color: #646464;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-size: 11px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  .periodOptionSelected {
+    background: #5294ff33;
+    border-radius: 10px;
+    color: #5294ff;
+  }
+  

@@ -1,0 +1,28 @@
+.mainPanel {
+    padding: 25px 14px;
+    border: 1px solid #212121;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.symbol {
+    margin-left: 5px;
+    color: #646464;
+}
+
+.priceUSD{
+    color: #646464;
+}
+
+.liquidity{
+    font-size:18px;
+    line-height:28px;
+    font-weight: bold;;
+}
+
+.iconContainer{
+    position: relative;
+    top: 4px;
+    height: 19px;
+    margin-right: 5px;
+}
